@@ -118,6 +118,8 @@ class LearningAgent(Agent):
                 print state
                 print 'self.Q'
                 print self.Q
+                print' len(self.Q)'
+                print len(self.Q)
                 self.Q[state] = {}
                 for action in self.valid_actions:
                     print 'for action in self.valid_actions:'
